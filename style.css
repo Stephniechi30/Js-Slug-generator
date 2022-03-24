@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: burlywood;
+}
+.container{
+width: 960px;
+min-height: 100vh;
+margin: 1.5rem auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card-block{
+    flex-basis: calc(100% /2);
+    background: cornsilk;
+    border: 1px solid black;
+}
+.card-block .card-header{
+    padding: 1.5rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+}
+.card-block .card-body{
+    padding: 1rem 1.5rem;
+}
+.form-group{
+    display: block;
+    margin-bottom: 1rem;
+}
+label{
+    font-weight: bold;
+}
+.form-input,
+.textarea{
+    display: block;
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 0.65rem;
+}
